@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "CLEAN-01",
+    "label": "CONSISTENT",
+    "record": {
+      "owner_name": "Rahul Kumar",
+      "survey_number": "125/2",
+      "parcel_area": "2.50 acres",
+      "record_status": "Active"
+    }
+  },
+  {
+    "case_id": "NOISY-01",
+    "label": "CONSISTENT",
+    "record": {
+      "owner_name": "Rahul Kurnar",
+      "survey_number": "125 / 2",
+      "parcel_area": "2.50 acres",
+      "record_status": "Current"
+    }
+  },
+  {
+    "case_id": "CONFLICT-OWNER",
+    "label": "CONFLICT",
+    "record": {
+      "owner_name": "Rohan Kumar",
+      "survey_number": "125/2",
+      "parcel_area": "2.50 acres",
+      "record_status": "Active"
+    }
+  },
+  {
+    "case_id": "CONFLICT-SURVEY",
+    "label": "CONFLICT",
+    "record": {
+      "owner_name": "Rahul Kumar",
+      "survey_number": "125/3",
+      "parcel_area": "2.50 acres",
+      "record_status": "Active"
+    }
+  },
+  {
+    "case_id": "CONFLICT-AREA",
+    "label": "CONFLICT",
+    "record": {
+      "owner_name": "Rahul Kumar",
+      "survey_number": "125/2",
+      "parcel_area": "3.50 acres",
+      "record_status": "Active"
+    }
+  },
+  {
+    "case_id": "CONFLICT-STATUS",
+    "label": "CONFLICT",
+    "record": {
+      "owner_name": "Rahul Kumar",
+      "survey_number": "125/2",
+      "parcel_area": "2.50 acres",
+      "record_status": "Cancelled"
+    }
+  },
+  {
+    "case_id": "MISSING-AREA",
+    "label": "CONFLICT",
+    "record": {
+      "owner_name": "Anita Sharma",
+      "survey_number": "88/1",
+      "parcel_area": "",
+      "record_status": "Active"
+    }
+  }
+]

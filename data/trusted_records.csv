@@ -1,0 +1,6 @@
+record_id,owner_name,survey_number,parcel_area,record_status
+LR-001,Rahul Kumar,125/2,2.50 acres,Active
+LR-002,Anita Sharma,88/1,1.75 acres,Active
+LR-003,Mohammed Arif,42/A,3.00 acres,Pending
+LR-004,Priya Das,19/7,0.80 hectare,Active
+LR-005,Suresh Patel,301/4,1200 sqm,Inactive
